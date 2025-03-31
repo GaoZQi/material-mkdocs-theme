@@ -98,3 +98,8 @@ markdown_extensions:
 
 
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+    - index.md # 首页
+    - 安装: ./pages/start/index.md
+    - 组件: ./pages/module/index.md
