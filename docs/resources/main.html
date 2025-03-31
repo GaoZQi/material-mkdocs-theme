@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+<div class="md-content" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+        {% block content %} {% include "partials/content.html" %} {% if page and
+        page.meta and page.meta.comment %}
+        <script
+            src="https://giscus.app/client.js"
+            data-repo="NPU-Home/home"
+            data-repo-id="R_kgDOMcZtsA"
+            data-category="General"
+            data-category-id="DIC_kwDOMcZtsM4ChP2s"
+            data-mapping="title"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="1"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="zh-CN"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async
+        ></script>
+        {% endif %} {% endblock %}
+    </article>
+</div>

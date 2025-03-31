@@ -1,0 +1,4 @@
+[submodule "docs/theme"]
+	path = docs/theme
+	url = git@github.com:GaoZQi/material-mkdocs-theme.git
+	branch = main
