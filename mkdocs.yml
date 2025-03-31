@@ -1,7 +1,7 @@
 site_name: Rounded主题
 site_url: https://GaoZQi.github.io/material-mkdocs-theme # 网站地址
 
-repo_name: NPU-Home # 仓库名称
+repo_name: material-mkdocs-theme # 仓库名称
 repo_url: https://github.com/GaoZQi/material-mkdocs-theme # 仓库地址
 
 theme:
