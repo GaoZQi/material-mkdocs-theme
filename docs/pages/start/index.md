@@ -39,7 +39,7 @@ git clone git@github.com:GaoZQi/material-mkdocs-theme.git
 如果想要持续接收主题更新，推荐使用下面的命令：
 
 ```bash
-git submodule add -b main git@github.com:GaoZQi/material-mkdocs-theme.git .\docs\theme
+git submodule add -b main git@github.com:GaoZQi/material-mkdocs-theme.git .\\docs\\theme
 ```
 
 ## 配置主题
