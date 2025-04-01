@@ -77,3 +77,12 @@ comment: True
 ## 贡献
 
 [![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4 "GaoZQi"){#ico .off-glb}](https://github.com/GaoZQi){#no-underline}
+
+## 代办
+
+-   [ ] 表格样式
+-   [ ] 代码块样式
+-   [ ] 加密模块文档
+-   [ ] 搜索背景模糊
+-   [ ] 图片插件控件优化
+-   [ ] 兼容性检查
