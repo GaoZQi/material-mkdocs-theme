@@ -12,6 +12,8 @@
 /* svg, emoji 等符号文字对齐 */
 .md-typeset :is(.emojione, .twemoji, .gemoji) {
     vertical-align: -0.15em;
+    border: none;
+    box-shadow: none;
 }
 
 .md-typeset img[align=left] {

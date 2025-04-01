@@ -12,7 +12,7 @@ a.toclink {
 /* 卡片 */
 article.md-post.md-post--excerpt {
     background-color: var(--md-primary-fg-color);
-    border-radius: 8px;
+    border-radius: 1rem;
     border: 2px solid var(--md-pic-shadow-color);
     padding: 20px;
     margin-bottom: 20px;

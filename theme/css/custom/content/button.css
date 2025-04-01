@@ -1,3 +1,16 @@
+.md-typeset .md-button.md-button--primary {
+    color: var(--md-link-color);
+    border: var(--md-link-color) solid 2px;
+}
+
+.md-typeset .md-button.md-button--primary:focus,
+.md-typeset .md-button.md-button--primary:hover {
+    color: var(--md-accent-fg-color);
+    border: none;
+    background-color: var(--md-link-color);
+    box-shadow: 0px 0px 6px 1px var(--md-link-color);
+}
+
 .md-typeset .md-button:focus,
 .md-typeset .md-button:hover {
     background-color: var(--md-pic-shadow-color);

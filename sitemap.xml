@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://GaoZQi.github.io/material-mkdocs-theme/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://GaoZQi.github.io/material-mkdocs-theme/pages/module/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://GaoZQi.github.io/material-mkdocs-theme/pages/module/basic/</loc>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://GaoZQi.github.io/material-mkdocs-theme/pages/start/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
 </urlset>

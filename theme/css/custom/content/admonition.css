@@ -7,8 +7,8 @@
 }
 
 :root {
-  --md-admonition-icon--caution: url(svg/Alert-Octagon--Streamline-Tabler-Filled.svg);
-  --md-admonition-icon--important: url(svg/sparkle-fill.svg)
+  --md-admonition-icon--caution: url(./svg/Alert-Octagon--Streamline-Tabler-Filled.svg);
+  --md-admonition-icon--important: url(./svg/sparkle-fill.svg)
 }
 
 .md-typeset .admonition.caution,
@@ -58,4 +58,18 @@
   background-color: #8250df;
   -webkit-mask-image: var(--md-admonition-icon--important);
   mask-image: var(--md-admonition-icon--important);
+}
+
+
+/* 不可展开或展开后的Admonition上栏 */
+[dir=ltr] .md-typeset .admonition-title,
+[dir=ltr] .md-typeset summary,
+[dir=rtl] .md-typeset .admonition-title,
+[dir=rtl] .md-typeset summary {
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* 折叠后的Admonition上栏  */
+.md-typeset details:not([open])>summary {
+  border-radius: 1rem;
 }
