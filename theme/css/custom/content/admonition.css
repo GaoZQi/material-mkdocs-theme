@@ -73,3 +73,8 @@
 .md-typeset details:not([open])>summary {
   border-radius: 1rem;
 }
+
+html .md-typeset .admonition-title:last-child,
+html .md-typeset summary:last-child {
+  border-radius: 1rem;
+}

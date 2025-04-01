@@ -6,7 +6,7 @@
 .md-typeset .md-button.md-button--primary:focus,
 .md-typeset .md-button.md-button--primary:hover {
     color: var(--md-accent-fg-color);
-    border: var(--md-link-color) solid 2px;
+    border: var(--md-link-color) solid 2px !important;
     background-color: var(--md-link-color);
     box-shadow: 0px 0px 6px 1px var(--md-link-color);
 }
@@ -46,4 +46,22 @@
     width: 100%;
     text-align: left;
     padding: .625em 1em;
+}
+
+#width-pic {
+    width: 100%;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    position: relative;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 1rem 1rem;
+    border: 2px solid var(--md-pic-shadow-color);
+    border-top: 0;
+    margin-left: 0;
+}
+
+#width-pic:hover {
+    border-top: 0 !important;
 }

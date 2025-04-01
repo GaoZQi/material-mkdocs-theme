@@ -19,19 +19,6 @@ name {
     margin-left: 10px;
 }
 
-#width-pic {
-    width: 100%;
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    position: relative;
-    bottom: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 0 0 1rem 1rem;
-    border: 2px solid var(--md-pic-shadow-color);
-    border-top: 0;
-}
-
 #card-pic {
     object-fit: cover;
     width: 100%;
