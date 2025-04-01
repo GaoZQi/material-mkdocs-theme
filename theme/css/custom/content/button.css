@@ -15,7 +15,7 @@
 .md-typeset .md-button:hover {
     background-color: var(--md-pic-shadow-color);
     font-weight: 900;
-    border: none;
+    border: var(--md-code-bg-color) solid 2px !important;
     color: var(--md-default-fg-color);
     background: none;
     box-shadow: inset 0px 0px 20px 1px var(--md-pic-shadow-color);
@@ -23,9 +23,10 @@
 
 .md-typeset .md-button {
     margin-top: .5rem;
+    margin-left: .5rem;
     background-color: var(--md-code-bg-color);
     color: var(--md-default-fg-color);
-    border: none;
+    border: var(--md-code-bg-color) solid 2px;
     border-radius: 1rem;
     transition: font-weight .25s, background-color .25s;
     text-align: center;

@@ -17,7 +17,16 @@
 <link href="../../../css/heti.css" rel="stylesheet"/>
 <link href="../../../theme/css/import.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-</head>
+ <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="auto" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1189,8 +1198,8 @@ and running in minutes</p>
 <h2 id="images">Images</h2>
 <p><span>Images<span class="heti-spacing"> </span></span>是一种用于显示图像的组件，通常用于提供视觉效果。它们可以帮助用户更好地理解文档内容。</p>
 <p>参考<a href="https://squidfunk.github.io/mkdocs-material/reference/images/"> <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.029 18.772.777 1.166-5.417 2.709L0 16.451V4.063l5.417-2.709 5.298 7.948 7.867-5.24L24 1.354V16.84l-5.417 2.709zm2.023-13.827v13.253l3.949-1.975V2.97zM5.076 2.642 1.458 4.45 12.73 21.358l3.618-1.809z"></path></svg></span> 官方教程</a>来开启<span class="heti-skip"><span class="heti-spacing"> </span>Images<span class="heti-spacing"> </span></span>功能。</p>
-<p><img alt="Image title" src="https://dummyimage.com/600x400/f5f5f5/aaaaaa#only-light"/>
-<img alt="Image title" src="https://dummyimage.com/600x400/21222c/d5d7e2#only-dark"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://dummyimage.com/600x400/f5f5f5/aaaaaa#only-light"><img alt="Image title" src="https://dummyimage.com/600x400/f5f5f5/aaaaaa#only-light"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="https://dummyimage.com/600x400/21222c/d5d7e2#only-dark"><img alt="Image title" src="https://dummyimage.com/600x400/21222c/d5d7e2#only-dark"/></a></p>
 <h2 id="lists">Lists</h2>
 <p><span>Lists<span class="heti-spacing"> </span></span>是一种用于显示列表的组件，通常用于提供有序或无序的项目列表。它们可以帮助用户更好地理解文档内容。</p>
 <p>参考<a href="https://squidfunk.github.io/mkdocs-material/reference/lists/"> <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.029 18.772.777 1.166-5.417 2.709L0 16.451V4.063l5.417-2.709 5.298 7.948 7.867-5.24L24 1.354V16.84l-5.417 2.709zm2.023-13.827v13.253l3.949-1.975V2.97zM5.076 2.642 1.458 4.45 12.73 21.358l3.618-1.809z"></path></svg></span> 官方教程</a>来开启<span class="heti-skip"><span class="heti-spacing"> </span>Lists<span class="heti-spacing"> </span></span>功能。</p>
@@ -1276,6 +1285,7 @@ massa, nec semper lorem quam in massa. <a class="footnote-backref" href="#fnref
 <script src="../../../js/timeago.min.js"></script>
 <script src="../../../js/timeago_mkdocs_material.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="../../../theme/js/zoom.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
