@@ -56,23 +56,21 @@ comment: True
 
 ## 友链
 
+使用该主题的网站，欢迎添加友链。
+
 <div class="grid cards" markdown>
 
 -   ![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4){#ico .off-glb} <name>GaoZQi</name>
 
     [GaoZQi' Note](https://gaozqi.github.io/note/){#width .md-button}
 
--   ![RonaldLN](https://avatars.githubusercontent.com/u/120019179?v=4){#ico .off-glb} <name>RonaldLN</name>
+-   ![NPU-Home](https://avatars.githubusercontent.com/u/171696651?s=400&u=088180d0e084b76aed5b496ac552db1edec7a5f3&v=4){#ico .off-glb} <name>NPU-Home</name>
 
-    [MyPamphlet](https://ronaldln.github.io/MyPamphlet/){#width .md-button}
+    [NPU-Home](https://gaozqi.github.io/note/){#width .md-button}
 
 -   ![Rounded](./images/icon.png){#ico .off-glb} <name>Rounded 主题</name>
 
-    [查看介绍](https://gaozqi.github.io/material-mkdocs-theme/){#width .md-button}
-
--   ![ico](https://img.picui.cn/free/2024/09/05/66d91b9c21423.bmp){#ico .off-glb} <name>友链</name>
-
-    [添加友链](){#width .md-button}
+    [立即使用](https://gaozqi.github.io/material-mkdocs-theme/pages/start/){#width .md-button .md-button--primary}
 
 </div>
 
