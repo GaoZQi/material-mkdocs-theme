@@ -66,7 +66,7 @@ comment: True
 
 -   ![NPU-Home](https://avatars.githubusercontent.com/u/171696651?s=400&u=088180d0e084b76aed5b496ac552db1edec7a5f3&v=4){#ico .off-glb} <name>NPU-Home</name>
 
-    [NPU-Home](https://gaozqi.github.io/note/){#width .md-button}
+    [NPU-Home](https://npu-home.github.io/){#width .md-button}
 
 -   ![Rounded](./images/icon.png){#ico .off-glb} <name>Rounded 主题</name>
 
