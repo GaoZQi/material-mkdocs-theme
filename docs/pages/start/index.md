@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown>
 
--   ![图标](../../images/icon.png){#ico .no-zoom} <name>material-mkdocs-theme</name>
+-   ![图标](../../images/icon.png){#ico .off-glb} <name>material-mkdocs-theme</name>
 
     ***
 
