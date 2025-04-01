@@ -9,8 +9,7 @@
     ***
 
     一款适用于 :simple-materialformkdocs: Material-Mkdocs 的极简风格主题。
-
-    [查看项目 :octicons-chevron-right-12:](https://github.com/GaoZQi/material-mkdocs-theme){#right .md-button}
+    [查看项目 :octicons-chevron-right-12:](https://github.com/GaoZQi/material-mkdocs-theme){#right .md-button .md-button--primary}
 
 </div>
 
