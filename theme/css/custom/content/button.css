@@ -6,7 +6,7 @@
 .md-typeset .md-button.md-button--primary:focus,
 .md-typeset .md-button.md-button--primary:hover {
     color: var(--md-accent-fg-color);
-    border: none;
+    border: var(--md-link-color) solid 2px;
     background-color: var(--md-link-color);
     box-shadow: 0px 0px 6px 1px var(--md-link-color);
 }
