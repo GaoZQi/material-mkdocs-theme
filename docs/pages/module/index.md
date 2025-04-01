@@ -8,6 +8,12 @@
 
     [查看效果 :octicons-chevron-right-12:](./basic.md){#right .md-button}
 
+-   ## 拓展组件
+
+    展示主题中额外提供的组件，包括封面按钮、图片缩放等。
+
+    [查看效果 :octicons-chevron-right-12:](./extend.md){#right .md-button}
+
 -   ## 插件组件
 
     展示一些其他开发者开发的插件组件的样式，包括图片预览等。

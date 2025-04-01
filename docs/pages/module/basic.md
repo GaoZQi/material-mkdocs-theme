@@ -14,6 +14,8 @@ Admonitions 是一种用于显示信息的组件，通常用于提供提示、�
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+!!! tip
+
 ### 无标题样式
 
 !!! note ""
@@ -30,7 +32,21 @@ Admonitions 是一种用于显示信息的组件，通常用于提供提示、�
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-内置默认主题
+### 嵌套样式
+
+!!! note "Outer Note"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+    !!! note "Inner Note"
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+        nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+        massa, nec semper lorem quam in massa.
+
+### 内置默认主题
 
 !!! note
 

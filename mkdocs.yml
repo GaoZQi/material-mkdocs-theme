@@ -39,9 +39,6 @@ extra_javascript:
 
 plugins:
     - heti
-    # - glightbox:
-    #       skip_classes:
-    #           - skip-lightbox
 
     - glightbox:
           touchNavigation: true
@@ -128,3 +125,7 @@ nav:
     - 组件:
           - ./pages/module/index.md
           - 基础组件: ./pages/module/basic.md
+          - 拓展组件: ./pages/module/extend.md
+          - 插件组件:
+                - ./pages/module/plugins/index.md
+                - goverlay: ./pages/module/plugins/goverlay.md
