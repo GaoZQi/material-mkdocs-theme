@@ -1,0 +1,19 @@
+/* 代码块 */
+.md-typeset code {
+    border-radius: .5rem;
+}
+
+/* 标题 */
+.highlight span.filename {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+/* 内联 */
+.md-typeset code:not(pre code) {
+    border-radius: .3rem;
+}
+
+.md-annotation .md-annotation__index {
+    background: none;
+}
