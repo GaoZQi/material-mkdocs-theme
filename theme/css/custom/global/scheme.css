@@ -17,6 +17,8 @@
         /*代码颜色 */
         --md-code-bg-color: #ffffff;
         --md-code-fg-color: var(--md-typeset-color);
+        --md-admonition-bg-color: #ffffff5c;
+        --md-button-bg-color: #ffffffab;
         --md-accent-fg-color--transparent: #c1c1c15b;
         --md-pic-shadow-color: rgb(166 166 166 / 12%);
         --md-link-color: #4287ff;
@@ -48,6 +50,8 @@
         --md-footer-fg-color--lighter: #fff;
         /* 代码块背景颜色 */
         --md-code-bg-color: #24242487;
+        --md-admonition-bg-color: #1a1a1a9e;
+        --md-button-bg-color: #24242487;
         /* 深色模式颜色 */
         --md-hue: 232;
         --md-code-fg-color: hsla(var(--md-hue), 18%, 86%, 1);
