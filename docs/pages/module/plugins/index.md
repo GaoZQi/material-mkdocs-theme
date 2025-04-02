@@ -4,8 +4,14 @@
 
 -   ## goverlay
 
-    一款适用于 Mkdocs 的 goverlay 插件，支持图片预览。
+    一款适用于 Mkdocs 的图片预览插件。
 
     [查看效果 :octicons-chevron-right-12:](./goverlay.md){#right .md-button}
+
+-   ## encryptcontent
+
+    一款适用于 Mkdocs 的内容加密插件。
+
+    [查看效果 :octicons-chevron-right-12:](./encryptcontent.md){#right .md-button}
 
 </div>
