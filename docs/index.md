@@ -30,7 +30,7 @@ comment: True
 
     展示组件使用方法，包括按钮、卡片等。
 
-    [开始学习 :octicons-chevron-right-12:](./pages/module/index.md){#right .md-button}
+    [预览样式 :octicons-chevron-right-12:](./pages/module/index.md){#right .md-button}
 
 <!-- -   ### 卡片四
 
