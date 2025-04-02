@@ -1,7 +1,9 @@
 #mkdocs-decrypt-button {
-    width: 100%;
+    min-width: 13%;
     max-width: 15%;
     padding: 0rem;
+    height: 2rem;
+    margin-left: 0;
     height: 2rem;
     background-color: var(--md-code-bg-color);
     color: var(--md-default-fg-color);
@@ -13,8 +15,5 @@
 
 #mkdocs-decrypt-button:hover,
 #mkdocs-decrypt-button:focus {
-    border: none;
-    background-color: var(--md-pic-shadow-color);
-    font-weight: 900;
-    box-shadow: inset 0px 0px 20px 1px var(--md-pic-shadow-color);
+    margin-left: 0;
 }

@@ -64,6 +64,8 @@
     margin-left: 0;
 }
 
-#width-pic:hover {
+#width-pic:hover,
+#width-pic:focus {
+    border: 2px solid var(--md-pic-shadow-color) !important;
     border-top: 0 !important;
 }
