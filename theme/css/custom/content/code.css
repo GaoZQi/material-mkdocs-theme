@@ -17,3 +17,8 @@
 .md-annotation .md-annotation__index {
     background: none;
 }
+
+.md-tooltip--active+.md-annotation__index:after,
+:hover>.md-annotation__index:after {
+    background-color: var(--md-link-color);
+}

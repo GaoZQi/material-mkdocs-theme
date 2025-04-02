@@ -10,3 +10,8 @@ thead {
 .md-typeset__scrollwrap {
     text-align: center;
 }
+
+.md-typeset table:not([class]) td:not([align]),
+.md-typeset table:not([class]) th:not([align]) {
+    vertical-align: middle;
+}
