@@ -150,7 +150,7 @@ def bubble_sort(items):
 
 ### 突出显示
 
-```py hl_lines="2 3"
+```py hl_lines="1 3 5"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):

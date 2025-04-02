@@ -68,6 +68,10 @@ comment: True
 
     [NPU-Home](https://npu-home.github.io/){#width .md-button}
 
+-   ![Torch-RecHub](https://avatars.githubusercontent.com/u/46047812?s=48&v=4){#ico .off-glb} <name>Torch-RecHub</name>
+
+    [Torch-RecHub](https://datawhalechina.github.io/torch-rechub/){#width .md-button}
+
 -   ![Rounded](./images/icon.png){#ico .off-glb} <name>Rounded 主题</name>
 
     [立即使用](https://gaozqi.github.io/material-mkdocs-theme/pages/start/){#width .md-button .md-button--primary}
@@ -80,9 +84,10 @@ comment: True
 
 ## 代办
 
--   [ ] 表格样式
--   [ ] 代码块样式
--   [ ] 加密模块文档
+-   [x] 表格样式
+-   [x] 代码块样式
+-   [x] 加密模块文档
 -   [ ] 搜索背景模糊
+    -   [ ] 标题栏模糊，导致移动设备搜索结果高度坍塌
 -   [ ] 图片插件控件优化
 -   [ ] 兼容性检查
