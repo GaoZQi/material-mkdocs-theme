@@ -64,6 +64,27 @@ plugins:
           locale: zh
           enable_creation_date: true
 
+    - encryptcontent:
+          reload_scripts:
+              - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+          password_button: True
+          password_button_text: "➜"
+
+          title_prefix: ""
+          summary: "限制访问！"
+          placeholder: "请输入口令"
+          decryption_failure_message: "⚠ 错误！"
+          encryption_info_message: "此内容为涉及核心代码，非基地内成员禁止访问！如需访问该网站内容，请输入正确口令。"
+
+          encrypted_something:
+              # md-footer__inner: [nav, class]
+              md-nav md-nav--secondary: [nav, class]
+              # md-nav__list: [ul, class]
+              # md-nav__title: [lable, class]
+              # md-nav: [nav, class]
+              # md-sidebar__inner: [div, class]
+
 markdown_extensions:
     - abbr # 缩写
     - pymdownx.snippets # 代码块
@@ -99,7 +120,7 @@ markdown_extensions:
     - pymdownx.magiclink # 链接
     - tables # 表格
     - meta
-
+    - pymdownx.blocks.html
     - pymdownx.tabbed: # 标签
           alternate_style: true # 标签样式
     - pymdownx.tasklist: # 任务列表

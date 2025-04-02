@@ -125,6 +125,6 @@ markdown
 
 ### 效果展示
 
-![图片](../../images/icon.png){#card-pic .off-glb}
+![图片](../../images/icon.png){#card-pic}
 
 [按钮](#_5){#width-pic .md-button}
