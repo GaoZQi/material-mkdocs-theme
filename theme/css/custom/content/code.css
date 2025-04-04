@@ -3,6 +3,17 @@
     border-radius: .5rem;
 }
 
+/* 行号 */
+
+.highlighttable .linenos {
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+a[href^="#__codelineno"] {
+    background: none !important;
+}
+
 /* 标题 */
 .highlight span.filename {
     border-top-left-radius: .5rem;
