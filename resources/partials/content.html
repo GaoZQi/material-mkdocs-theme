@@ -1,4 +1,14 @@
-{% if not "\x3ch1" in page.content %}
-  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+{% if "\x3ch1" not in page.content %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% include "partials/source-file.html" %}
+{% else %}
+{% set split_content = page.content.split("</h1>", 1) %}
+{{ split_content[0] | safe }}</h1>
+{% include "partials/source-file.html" %}
+{{ split_content[1] | safe }}
 {% endif %}
-{{ page.content }}
+{{ page.content if "\x3ch1" not in page.content else '' }}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
