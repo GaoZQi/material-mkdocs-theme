@@ -1,0 +1,37 @@
+name: Publish docs via GitHub Pages
+on:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Submodules Sync"]  # 必须与目标 Workflow 的 name 完全一致
+    branches: [main]
+    types:
+      - completed  # 监听目标 Workflow 完成
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy docs
+        run: mkdocs gh-deploy --force
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
