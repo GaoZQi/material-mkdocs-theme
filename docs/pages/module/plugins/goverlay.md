@@ -11,7 +11,7 @@
     A MkDocs plugin supports image lightbox with GLightbox.
 
     [查看项目 :octicons-chevron-right-12:](https://github.com/blueswen/mkdocs-glightbox){#right .md-button .md-button--primary}
-    [查看文档](https://github.com/blueswen/mkdocs-glightbox){#right .md-button}
+    [查看文档](https://blueswen.github.io/mkdocs-glightbox/){#right .md-button}
 
 </div>
 
