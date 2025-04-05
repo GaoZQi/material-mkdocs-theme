@@ -3,7 +3,7 @@ hide:
     - navigation
     - footer
 title: 首页
-comment: True
+comments: True
 ---
 
 # Rounded 主题
