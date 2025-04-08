@@ -67,7 +67,8 @@ plugins:
     - git-committers:
           repository: GaoZQi/material-mkdocs-theme
           branch: docs
-
+          exclude_committers:
+              - "web-flow"
     - encryptcontent:
           reload_scripts:
               - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
