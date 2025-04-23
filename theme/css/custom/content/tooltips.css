@@ -3,7 +3,6 @@
     background-color: var(--md-code-bg-color);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    ;
 }
 
 .md-tooltip {
@@ -11,4 +10,9 @@
     background-color: var(--md-code-bg-color);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+}
+
+.md-tooltip--inline {
+    white-space: nowrap;
+    /* 防止文字换行，可选 */
 }

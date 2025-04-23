@@ -1,14 +1,25 @@
 #mkdocs-decrypt-button {
     min-width: 2rem;
-    max-width: 15%;
+    max-width: 18%;
     padding: 0rem;
     height: 2rem;
     margin-left: 0;
+    margin-top: 1rem;
     height: 2rem;
     width: 100%;
+    align-self: center;
+    color: var(--md-link-color);
 }
 
 #mkdocs-decrypt-button:hover,
 #mkdocs-decrypt-button:focus {
     margin-left: 0;
+    color: white;
+}
+
+#mkdocs-decrypt-button svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: baseline;
+    fill: currentColor;
 }
