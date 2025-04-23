@@ -88,7 +88,6 @@ extra_javascript:
 ```
 
 ```markdown
-markdown
 [按钮](https://example.com){#width-left .md-button}
 ```
 
