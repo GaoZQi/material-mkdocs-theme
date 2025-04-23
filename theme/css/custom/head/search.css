@@ -17,6 +17,13 @@ input[type=text].md-search__input::placeholder {
 @media screen and (min-width: 60em) {
     .md-search__overlay {
         background-color: var(--md-primary-fg-color);
+        height: 100vh !important;
+    }
+
+    [data-md-toggle=search]:checked~.md-container {
+        filter: saturate(180%) blur(20px);
+        -webkit-filter: saturate(180%) blur(20px);
+        pointer-events: none;
     }
 }
 

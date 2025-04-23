@@ -1,10 +1,9 @@
 #mkdocs-decrypt-button {
-    min-width: 2rem;
-    max-width: 18%;
+    min-width: 5rem;
+    max-width: 20%;
     padding: 0rem;
     height: 2rem;
-    margin-left: 0;
-    margin-top: 1rem;
+    margin: 1rem 0;
     height: 2rem;
     width: 100%;
     align-self: center;
@@ -20,6 +19,6 @@
 #mkdocs-decrypt-button svg {
     width: 1em;
     height: 1em;
-    vertical-align: baseline;
+    vertical-align: -0.12em;
     fill: currentColor;
 }

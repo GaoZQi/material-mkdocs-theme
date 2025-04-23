@@ -162,3 +162,7 @@
 .file-icon[data-type="ps1"] {
     background-image: url('https://cdn.mengze.vip/gh/material-extensions/vscode-material-icon-theme@main/icons/exe.svg');
 }
+
+.file-icon[data-type="github"] {
+    background-image: url('https://cdn.mengze.vip/gh/material-extensions/vscode-material-icon-theme@main/icons/folder-github-open.svg');
+}

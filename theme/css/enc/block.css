@@ -1,5 +1,5 @@
 form#mkdocs-decrypt-form {
-    padding: .5rem 1rem .5rem 1rem;
+    padding: .5rem 1rem 0rem 1rem;
     margin-bottom: 1rem;
     background-color: var(--md-primary-fg-color);
     border-radius: 1rem;

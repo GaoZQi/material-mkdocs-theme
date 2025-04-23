@@ -1,8 +1,8 @@
 .file-block {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem !important;
     margin: 1rem 0;
     justify-content: space-between;
 }
