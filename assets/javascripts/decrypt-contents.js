@@ -249,7 +249,7 @@ function decryptor_reaction(key_or_keys, password_input, decrypted_content, fall
         }
         // any post processing on the decrypted content should be done here
         document$.next(document);
-        let reload_scripts = ['https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'];
+        let reload_scripts = ['resources/javascript/mathjax.js', 'https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js'];
         for (let i = 0; i < reload_scripts.length; i++) { 
             reload_js(reload_scripts[i]);
         }
