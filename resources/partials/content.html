@@ -12,11 +12,57 @@
 {% include "partials/feedback.html" %}
 <!-- {% include "partials/comments.html" %} -->
 {% if page.meta.comments %}
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
 <!-- Insert generated snippet here -->
 <script src="https://giscus.app/client.js" data-repo="GaoZQi/material-mkdocs-theme" data-repo-id="R_kgDOMtruFQ"
     data-category="General" data-category-id="DIC_kwDOMtruFc4Coo-F" data-mapping="title" data-strict="0"
     data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
     data-theme="https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-auto_1.0.css" data-lang="zh-CN"
     data-loading="lazy" crossorigin="anonymous" async></script>
+
 <!-- Synchronize Giscus theme with palette -->
+<script>
+    var giscus = document.querySelector("script[src*=giscus]");
+
+    // Set palette on initial load
+    var palette = __md_get("__palette");
+    if (palette && typeof palette.color === "object") {
+        var scheme = palette.color.scheme;
+        console.log("[Giscus] 当前配色方案 scheme =", scheme);
+        var theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-auto_1.0.css";
+
+        if (scheme === "slate") {
+            theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-dark_1.0.css";
+        } else if (scheme === "default") {
+            theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-light_1.0.css";
+        }
+
+        giscus.setAttribute("data-theme", theme);
+    }
+
+    // Register event handlers after document loaded
+    document.addEventListener("DOMContentLoaded", function () {
+        var ref = document.querySelector("[data-md-component=palette]");
+        ref.addEventListener("change", function () {
+            var palette = __md_get("__palette");
+            if (palette && typeof palette.color === "object") {
+                var scheme = palette.color.scheme;
+                console.log("[Giscus] 当前配色方案 scheme =", scheme);
+                var theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-auto_1.0.css";
+
+                if (scheme === "slate") {
+                    theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-dark_1.0.css";
+                } else if (scheme === "default") {
+                    theme = "https://cdn.mengze.vip/gh/GaoZQi/rounded-giscus@main/round-light_1.0.css";
+                }
+
+                var frame = document.querySelector(".giscus-frame");
+                frame.contentWindow.postMessage(
+                    { giscus: { setConfig: { theme } } },
+                    "https://giscus.app"
+                );
+            }
+        });
+    });
+</script>
 {% endif %}
