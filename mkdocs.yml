@@ -28,8 +28,8 @@ theme:
 
     palette:
         # Palette toggle for automatic mode
-        - media: "(prefers-color-scheme)"
-          # scheme: auto
+        - media: "(prefers-color-scheme: auto)"
+          scheme: auto
           toggle:
               icon: material/lightbulb-auto-outline
               name: 切换为浅色模式
